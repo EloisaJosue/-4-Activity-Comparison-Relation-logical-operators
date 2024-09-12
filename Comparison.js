@@ -2,7 +2,6 @@
 let firstFavNumb = 20;
 //Create a variable named secondFavNumb and store your second favorite number
 let secondFavNumb = 18;
-
 //COMPARISON //
 
 //Greater Than
