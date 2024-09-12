@@ -1,8 +1,8 @@
-
 //Create a variable named firstFavNumb and store your favorite number
 let firstFavNumb = 20;
 //Create a variable named secondFavNumb and store your second favorite number
 let secondFavNumb = 18;
+
 //COMPARISON //
 
 //Greater Than
@@ -56,3 +56,4 @@ console.log(isGood || isBad); //true
 console.log(!isGood || isBad); //false
 console.log(isGood == isBad); //false
 console.log(isGood == !isBas); //true
+
