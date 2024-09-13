@@ -1,7 +1,8 @@
 //Create a variable named firstFavNumb and store your favorite number
-let firstFavNumb = 20;
+let firstFavNumb = 01;
 //Create a variable named secondFavNumb and store your second favorite number
-let secondFavNumb = 18;
+let secondFavNumb = 97;
+
 //COMPARISON //
 
 //Greater Than
@@ -27,17 +28,17 @@ console.log(firstFavNumb != secondFavNumb); //true
  // LOGICAL OPERATORS //
 
  //AND
-let x = 20;
-let y = 18;
+let x = 01;
+let y = 97;
 let z = 37;
 
  console.log(x < y && y < z); //true
  console.log(x > y && y > z); //false
 
 //OR
-let a = “bad";
-let b = "good";
-let c = "bad";
+let a = “purple”;
+let b = "blue”;
+let c = "purple”;
 
 console.log(a === b || a === c); //true
 console.log(a === b || b === c); //false
@@ -46,13 +47,12 @@ console.log(a === b || b === c); //false
 let isLight = true;
 let isDark = false;
 
-console.log(!isGood); //false
-console.log(!isBad); //true
+console.log(!isPurple); //false
+console.log(!isBlue); //true
 
-console.log(!isGoog&& isBad); //false
-console.log(isGooh&& !isBad); //true
-console.log(isGood || isBad); //true
-console.log(!isGood || isBad); //false
-console.log(isGood == isBad); //false
-console.log(isGood == !isBas); //true
-
+console.log(!isPurplg&& isBlue); //false
+console.log(isPurplh&& !isBlue); //true
+console.log(isPurple|| isBlue); //true
+console.log(!isPurple || isBlue); //false
+console.log(isPurple == isBlue); //false
+console.log(isPurple == !isBlus); //true
